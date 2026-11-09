@@ -1,0 +1,332 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.0
+2 info using node@v22.11.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\web sites\todo\.npmrc
+5 silly config load:file:C:\Users\Lenovo\.npmrc
+6 silly config load:file:C:\Users\Lenovo\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\web sites\todo\.npm-cache\_logs\2026-11-09T09_10_18_307Z-
+10 verbose logfile C:\web sites\todo\.npm-cache\_logs\2026-11-09T09_10_18_307Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly fetch manifest magic-string@0.30.21
+15 silly packumentCache full:https://registry.npmjs.org/magic-string cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/magic-string 679ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/magic-string set size:undefined disposed:false
+18 silly placeDep node_modules/@tailwindcss/node magic-string@0.30.21 OK for: @tailwindcss/node@4.3.5 want: 0.30.21
+19 warn EBADENGINE Unsupported engine {
+19 warn EBADENGINE   package: 'eslint-visitor-keys@5.0.1',
+19 warn EBADENGINE   required: { node: '^20.19.0 || ^22.13.0 || >=24' },
+19 warn EBADENGINE   current: { node: 'v22.11.0', npm: '10.9.0' }
+19 warn EBADENGINE }
+20 silly reify mark retired [ 'C:\\web sites\\todo\\node_modules\\magic-string' ]
+21 silly reify moves {
+21 silly reify   'C:\\web sites\\todo\\node_modules\\magic-string': 'C:\\web sites\\todo\\node_modules\\.magic-string-XCunULy1'
+21 silly reify }
+22 verbose reify failed optional dependency C:\web sites\todo\node_modules\@tailwindcss\oxide-wasm32-wasi
+23 silly reify mark deleted [
+23 silly reify   'C:\\web sites\\todo\\node_modules\\@tailwindcss\\oxide-wasm32-wasi'
+23 silly reify ]
+24 verbose reify failed optional dependency C:\web sites\todo\node_modules\lightningcss-win32-arm64-msvc
+25 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\lightningcss-win32-arm64-msvc' ]
+26 verbose reify failed optional dependency C:\web sites\todo\node_modules\lightningcss-linux-x64-musl
+27 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\lightningcss-linux-x64-musl' ]
+28 verbose reify failed optional dependency C:\web sites\todo\node_modules\lightningcss-linux-x64-gnu
+29 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\lightningcss-linux-x64-gnu' ]
+30 verbose reify failed optional dependency C:\web sites\todo\node_modules\lightningcss-linux-arm64-musl
+31 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\lightningcss-linux-arm64-musl' ]
+32 verbose reify failed optional dependency C:\web sites\todo\node_modules\lightningcss-linux-arm64-gnu
+33 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\lightningcss-linux-arm64-gnu' ]
+34 verbose reify failed optional dependency C:\web sites\todo\node_modules\lightningcss-linux-arm-gnueabihf
+35 silly reify mark deleted [
+35 silly reify   'C:\\web sites\\todo\\node_modules\\lightningcss-linux-arm-gnueabihf'
+35 silly reify ]
+36 verbose reify failed optional dependency C:\web sites\todo\node_modules\lightningcss-freebsd-x64
+37 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\lightningcss-freebsd-x64' ]
+38 verbose reify failed optional dependency C:\web sites\todo\node_modules\lightningcss-darwin-x64
+39 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\lightningcss-darwin-x64' ]
+40 verbose reify failed optional dependency C:\web sites\todo\node_modules\lightningcss-darwin-arm64
+41 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\lightningcss-darwin-arm64' ]
+42 verbose reify failed optional dependency C:\web sites\todo\node_modules\lightningcss-android-arm64
+43 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\lightningcss-android-arm64' ]
+44 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-win32-ia32-msvc
+45 silly reify mark deleted [
+45 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-win32-ia32-msvc'
+45 silly reify ]
+46 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-win32-arm64-msvc
+47 silly reify mark deleted [
+47 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-win32-arm64-msvc'
+47 silly reify ]
+48 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-openharmony-arm64
+49 silly reify mark deleted [
+49 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-openharmony-arm64'
+49 silly reify ]
+50 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-linux-x64-musl
+51 silly reify mark deleted [
+51 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-linux-x64-musl'
+51 silly reify ]
+52 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-linux-x64-gnu
+53 silly reify mark deleted [
+53 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-linux-x64-gnu'
+53 silly reify ]
+54 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-linux-s390x-gnu
+55 silly reify mark deleted [
+55 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-linux-s390x-gnu'
+55 silly reify ]
+56 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-linux-riscv64-musl
+57 silly reify mark deleted [
+57 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-linux-riscv64-musl'
+57 silly reify ]
+58 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-linux-riscv64-gnu
+59 silly reify mark deleted [
+59 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-linux-riscv64-gnu'
+59 silly reify ]
+60 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-linux-ppc64-gnu
+61 silly reify mark deleted [
+61 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-linux-ppc64-gnu'
+61 silly reify ]
+62 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-linux-loong64-musl
+63 silly reify mark deleted [
+63 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-linux-loong64-musl'
+63 silly reify ]
+64 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-linux-loong64-gnu
+65 silly reify mark deleted [
+65 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-linux-loong64-gnu'
+65 silly reify ]
+66 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-linux-arm64-musl
+67 silly reify mark deleted [
+67 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-linux-arm64-musl'
+67 silly reify ]
+68 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-linux-arm64-gnu
+69 silly reify mark deleted [
+69 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-linux-arm64-gnu'
+69 silly reify ]
+70 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-linux-arm-musleabihf
+71 silly reify mark deleted [
+71 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-linux-arm-musleabihf'
+71 silly reify ]
+72 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-linux-arm-gnueabihf
+73 silly reify mark deleted [
+73 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-linux-arm-gnueabihf'
+73 silly reify ]
+74 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-freebsd-x64
+75 silly reify mark deleted [
+75 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-freebsd-x64'
+75 silly reify ]
+76 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-darwin-x64
+77 silly reify mark deleted [
+77 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-darwin-x64'
+77 silly reify ]
+78 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-darwin-arm64
+79 silly reify mark deleted [
+79 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-darwin-arm64'
+79 silly reify ]
+80 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-android-arm64
+81 silly reify mark deleted [
+81 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-android-arm64'
+81 silly reify ]
+82 verbose reify failed optional dependency C:\web sites\todo\node_modules\@unrs\resolver-binding-android-arm-eabi
+83 silly reify mark deleted [
+83 silly reify   'C:\\web sites\\todo\\node_modules\\@unrs\\resolver-binding-android-arm-eabi'
+83 silly reify ]
+84 verbose reify failed optional dependency C:\web sites\todo\node_modules\@tailwindcss\oxide-win32-arm64-msvc
+85 silly reify mark deleted [
+85 silly reify   'C:\\web sites\\todo\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc'
+85 silly reify ]
+86 verbose reify failed optional dependency C:\web sites\todo\node_modules\@tailwindcss\oxide-linux-x64-musl
+87 silly reify mark deleted [
+87 silly reify   'C:\\web sites\\todo\\node_modules\\@tailwindcss\\oxide-linux-x64-musl'
+87 silly reify ]
+88 verbose reify failed optional dependency C:\web sites\todo\node_modules\@tailwindcss\oxide-linux-x64-gnu
+89 silly reify mark deleted [
+89 silly reify   'C:\\web sites\\todo\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu'
+89 silly reify ]
+90 verbose reify failed optional dependency C:\web sites\todo\node_modules\@tailwindcss\oxide-linux-arm64-musl
+91 silly reify mark deleted [
+91 silly reify   'C:\\web sites\\todo\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl'
+91 silly reify ]
+92 verbose reify failed optional dependency C:\web sites\todo\node_modules\@tailwindcss\oxide-linux-arm64-gnu
+93 silly reify mark deleted [
+93 silly reify   'C:\\web sites\\todo\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu'
+93 silly reify ]
+94 verbose reify failed optional dependency C:\web sites\todo\node_modules\@tailwindcss\oxide-linux-arm-gnueabihf
+95 silly reify mark deleted [
+95 silly reify   'C:\\web sites\\todo\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf'
+95 silly reify ]
+96 verbose reify failed optional dependency C:\web sites\todo\node_modules\@tailwindcss\oxide-freebsd-x64
+97 silly reify mark deleted [
+97 silly reify   'C:\\web sites\\todo\\node_modules\\@tailwindcss\\oxide-freebsd-x64'
+97 silly reify ]
+98 verbose reify failed optional dependency C:\web sites\todo\node_modules\@tailwindcss\oxide-darwin-x64
+99 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@tailwindcss\\oxide-darwin-x64' ]
+100 verbose reify failed optional dependency C:\web sites\todo\node_modules\@tailwindcss\oxide-darwin-arm64
+101 silly reify mark deleted [
+101 silly reify   'C:\\web sites\\todo\\node_modules\\@tailwindcss\\oxide-darwin-arm64'
+101 silly reify ]
+102 verbose reify failed optional dependency C:\web sites\todo\node_modules\@tailwindcss\oxide-android-arm64
+103 silly reify mark deleted [
+103 silly reify   'C:\\web sites\\todo\\node_modules\\@tailwindcss\\oxide-android-arm64'
+103 silly reify ]
+104 verbose reify failed optional dependency C:\web sites\todo\node_modules\@next\swc-win32-arm64-msvc
+105 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@next\\swc-win32-arm64-msvc' ]
+106 verbose reify failed optional dependency C:\web sites\todo\node_modules\@next\swc-linux-x64-musl
+107 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@next\\swc-linux-x64-musl' ]
+108 verbose reify failed optional dependency C:\web sites\todo\node_modules\@next\swc-linux-x64-gnu
+109 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@next\\swc-linux-x64-gnu' ]
+110 verbose reify failed optional dependency C:\web sites\todo\node_modules\@next\swc-linux-arm64-musl
+111 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@next\\swc-linux-arm64-musl' ]
+112 verbose reify failed optional dependency C:\web sites\todo\node_modules\@next\swc-linux-arm64-gnu
+113 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@next\\swc-linux-arm64-gnu' ]
+114 verbose reify failed optional dependency C:\web sites\todo\node_modules\@next\swc-darwin-x64
+115 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@next\\swc-darwin-x64' ]
+116 verbose reify failed optional dependency C:\web sites\todo\node_modules\@next\swc-darwin-arm64
+117 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@next\\swc-darwin-arm64' ]
+118 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-win32-ia32
+119 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@img\\sharp-win32-ia32' ]
+120 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-win32-arm64
+121 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@img\\sharp-win32-arm64' ]
+122 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-webcontainers-wasm32
+123 silly reify mark deleted [
+123 silly reify   'C:\\web sites\\todo\\node_modules\\@img\\sharp-webcontainers-wasm32'
+123 silly reify ]
+124 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-linuxmusl-x64
+125 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@img\\sharp-linuxmusl-x64' ]
+126 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-linuxmusl-arm64
+127 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@img\\sharp-linuxmusl-arm64' ]
+128 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-linux-x64
+129 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@img\\sharp-linux-x64' ]
+130 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-linux-s390x
+131 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@img\\sharp-linux-s390x' ]
+132 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-linux-riscv64
+133 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@img\\sharp-linux-riscv64' ]
+134 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-linux-ppc64
+135 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@img\\sharp-linux-ppc64' ]
+136 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-linux-arm64
+137 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@img\\sharp-linux-arm64' ]
+138 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-linux-arm
+139 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@img\\sharp-linux-arm' ]
+140 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-libvips-linuxmusl-x64
+141 silly reify mark deleted [
+141 silly reify   'C:\\web sites\\todo\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+141 silly reify ]
+142 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-libvips-linuxmusl-arm64
+143 silly reify mark deleted [
+143 silly reify   'C:\\web sites\\todo\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+143 silly reify ]
+144 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-libvips-linux-x64
+145 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@img\\sharp-libvips-linux-x64' ]
+146 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-libvips-linux-s390x
+147 silly reify mark deleted [
+147 silly reify   'C:\\web sites\\todo\\node_modules\\@img\\sharp-libvips-linux-s390x'
+147 silly reify ]
+148 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-libvips-linux-riscv64
+149 silly reify mark deleted [
+149 silly reify   'C:\\web sites\\todo\\node_modules\\@img\\sharp-libvips-linux-riscv64'
+149 silly reify ]
+150 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-libvips-linux-ppc64
+151 silly reify mark deleted [
+151 silly reify   'C:\\web sites\\todo\\node_modules\\@img\\sharp-libvips-linux-ppc64'
+151 silly reify ]
+152 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-libvips-linux-arm64
+153 silly reify mark deleted [
+153 silly reify   'C:\\web sites\\todo\\node_modules\\@img\\sharp-libvips-linux-arm64'
+153 silly reify ]
+154 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-libvips-linux-arm
+155 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@img\\sharp-libvips-linux-arm' ]
+156 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-libvips-darwin-x64
+157 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@img\\sharp-libvips-darwin-x64' ]
+158 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-libvips-darwin-arm64
+159 silly reify mark deleted [
+159 silly reify   'C:\\web sites\\todo\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+159 silly reify ]
+160 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-freebsd-wasm32
+161 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@img\\sharp-freebsd-wasm32' ]
+162 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-darwin-x64
+163 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@img\\sharp-darwin-x64' ]
+164 verbose reify failed optional dependency C:\web sites\todo\node_modules\@img\sharp-darwin-arm64
+165 silly reify mark deleted [ 'C:\\web sites\\todo\\node_modules\\@img\\sharp-darwin-arm64' ]
+166 silly tarball no local data for magic-string@https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz. Extracting by manifest.
+167 http fetch GET 200 https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz 748ms (cache miss)
+168 silly ADD
+169 silly ADD
+170 silly ADD
+171 silly ADD
+172 silly ADD
+173 silly ADD
+174 silly ADD
+175 silly ADD
+176 silly ADD
+177 silly ADD
+178 silly ADD
+179 silly ADD
+180 silly ADD
+181 silly ADD
+182 silly ADD
+183 silly ADD
+184 silly ADD
+185 silly ADD
+186 silly ADD
+187 silly ADD
+188 silly ADD
+189 silly ADD
+190 silly ADD
+191 silly ADD
+192 silly ADD
+193 silly ADD
+194 silly ADD
+195 silly ADD
+196 silly ADD
+197 silly ADD
+198 silly ADD
+199 silly ADD
+200 silly ADD
+201 silly ADD
+202 silly ADD
+203 silly ADD
+204 silly ADD
+205 silly ADD
+206 silly ADD
+207 silly ADD
+208 silly ADD
+209 silly ADD
+210 silly ADD
+211 silly ADD
+212 silly ADD
+213 silly ADD
+214 silly ADD
+215 silly ADD
+216 silly ADD
+217 silly ADD
+218 silly ADD
+219 silly ADD
+220 silly ADD
+221 silly ADD
+222 silly ADD
+223 silly ADD
+224 silly ADD
+225 silly ADD
+226 silly ADD
+227 silly ADD
+228 silly ADD
+229 silly ADD
+230 silly ADD
+231 silly ADD
+232 silly ADD
+233 silly ADD
+234 silly ADD
+235 silly ADD
+236 silly ADD
+237 silly ADD
+238 silly ADD
+239 silly ADD
+240 silly REMOVE node_modules/magic-string
+241 silly ADD node_modules/@tailwindcss/node/node_modules/magic-string
+242 verbose cwd C:\web sites\todo
+243 verbose os Windows_NT 10.0.26200
+244 verbose node v22.11.0
+245 verbose npm  v10.9.0
+246 verbose exit 0
+247 info ok
